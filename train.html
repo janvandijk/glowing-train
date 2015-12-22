@@ -1,7 +1,15 @@
 <html>
 <head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <style>
 h1 {
+    -webkit-transition: text-shadow 1s linear;
+    -moz-transition: text-shadow 1s linear;
+    -ms-transition: text-shadow 1s linear;
+    -o-transition: text-shadow 1s linear;
+    transition: text-shadow 1s linear;
+}
+h1.glow {
     text-shadow: 0 0 7px #FF0000;
 }
 </style>
@@ -17,6 +25,11 @@ h1 {
 
 <i>Ascii art (c) Jacob Seligmann, Denmark</i>
 
-
+<script>
+    var glow = $('h1');
+    setInterval(function(){
+        glow.hasClass('glow') ? glow.removeClass('glow') : glow.addClass('glow');
+    }, 1000);
+</script>
 </body>
 </html>
