@@ -10,7 +10,7 @@
 ## Glowing Train
 Well, that was my suggested repo name... and to see the amazing results:
 
-http://htmlpreview.github.io/?https://github.com/janvandijk/glowing-train/blob/master/train.html
+http://www.janvandijk.eu/train.html
 
 ## Thanks
 I would like to thank my family and all my collegues @ ADchieve for not only making this financially possible, but for being my biggest supporters and #1 fans—even from a distance. I couldn't have done this without you. Love you all!
